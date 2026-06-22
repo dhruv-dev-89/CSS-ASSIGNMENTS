@@ -1,0 +1,171 @@
+body{
+    background-color: lightgray;
+    margin: 10px;
+    font-family: "Times New Roman", serif;
+}
+
+/* Heading 1 */
+
+.heading1{
+    background: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+    text-decoration: underline;
+    height: 40px;
+    line-height: 40px;
+}
+
+.heading1 h1{
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Menu */
+
+.menu{
+    width: 500px;
+    margin: 20px auto;
+    background-color: turquoise;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menu ul{
+    width: 150px;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Offerings */
+
+.offer-container{
+    background-color: rgb(131, 226, 195);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.offer-box{
+    width: 350px;
+    background-color: rgb(24, 219, 219);
+    border: 2px solid green;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+}
+
+.center-box{
+    margin-top: 5px;
+}
+
+/* Heading 2 */
+
+.heading2{
+    margin-top: 25px;
+    background: linear-gradient(to right, red, orange, yellow, red);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.heading2 h1{
+    margin: 0;
+    padding: 5px;
+}
+
+/* Students */
+
+.student-section{
+    margin-top: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+
+    background: radial-gradient(circle,
+            blue,
+            deepskyblue,
+            turquoise,
+            green);
+}
+
+.student-card{
+    width: 180px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 15px;
+    text-align: center;
+    color: brown;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Career Section */
+
+.career-container{
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.career-heading{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.top-row{
+    display: flex;
+}
+
+.small-box{
+    width: 300px;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.box1{
+    background-color: lightgreen;
+}
+
+.box2{
+    background-color: lightsteelblue;
+}
+
+.box3{
+    background-color: blue;
+}
+
+.list-box{
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 10px;
+}
+
+.bottom-text{
+    background-color: orange;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    height: 120px;
+    padding: 15px;
+}
+
+.footer{
+    background-color: rgb(28, 219, 219);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}

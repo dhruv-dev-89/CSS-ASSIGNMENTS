@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:gray;
+    font-family:Georgia, serif;
+}
+
+/* Header */
+
+.header{
+    width:600px;
+    margin:20px auto;
+    background:white;
+    border:10px solid red;
+    border-radius:15px;
+    text-align:center;
+    color:purple;
+    font-style:italic;
+    padding:20px;
+    box-shadow:12px 12px 0 purple;
+}
+
+.header h1{
+    margin:15px 0;
+}
+
+/* Main Section */
+
+.main-box{
+    border:6px solid green;
+    min-height:850px;
+    position:relative;
+    margin:10px;
+}
+
+.left-box,
+.right-box{
+    width:280px;
+    background:white;
+    border:8px solid red;
+    border-radius:12px;
+    box-shadow:12px 12px 8px purple;
+    padding:15px;
+}
+
+.address{
+    position:absolute;
+    top:15px;
+    left:10px;
+    height:350px;
+    color:purple;
+    font-style:italic;
+}
+.text-box h1{
+    font-size: 30px;
+}
+
+.address h2{
+    margin:25px 0;
+}
+
+.image-box{
+    position:absolute;
+    top:15px;
+    right:10px;
+    height:350px;
+}
+
+.text-box{
+    position:absolute;
+    left:10px;
+    top:450px;
+    height: 370px;
+}
+
+.rate-box{
+    position:absolute;
+    right:10px;
+    top:450px;
+    height:260px;
+    text-align:center;
+}
+
+.rate-box h2{
+    margin-bottom:25px;
+}
+
+.rate-box input{
+    width:190px;
+    padding:5px;
+}
+
+.rate-box button{
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+/* Offer */
+
+.offer{
+    width:620px;
+    background:green;
+    border:8px solid red;
+    border-radius:12px;
+    box-shadow:12px 12px 8px purple;
+    padding:25px;
+    position:fixed;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* Store */
+
+.store{
+    width:60%;
+    margin:40px auto;
+    background:green;
+    border:8px solid blueviolet;
+    padding:20px;
+    text-align:center;
+}
+
+.store h1{
+    margin-bottom:20px;
+}
+
+.row{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+}
+
+.card{
+    width:45%;
+    background:yellow;
+    padding:20px;
+}
+
+.card h2{
+    margin-bottom:15px;
+    font-style:italic;
+}
+
+.card p{
+    margin:25px 0;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.other-items{
+    margin-top:25px;
+    background:yellow;
+    padding:20px;
+}
+
+.other-items h2{
+    margin-bottom:20px;
+    font-style:italic;
+}
