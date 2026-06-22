@@ -1,0 +1,59 @@
+body{
+    background-color: #dcdcdc;
+    padding: 10px;
+}
+
+h1{
+    color: tomato;
+    font-size: 55px;
+}
+
+h2{
+    color: limegreen;
+    font-style: italic;
+    font-size: 40px;
+}
+
+ol{
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+ul{
+    color: brown;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+mark{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.red-text{
+    color: brown;
+    font-size: 20px;
+}
+
+.small-text{
+    color: brown;
+    font-size: 10px;
+}
+
+.italic-text{
+    color: brown;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.btn{
+    background-color: yellow;
+    color: brown;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
